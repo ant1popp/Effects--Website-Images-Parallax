@@ -34,6 +34,7 @@ This is to keep the footer element always in the center (see screenshot).
 - Any modern browser with CSS transition support
 - Last tested with: Firefox 34 and Chrome 39 under Win 7
 
+
 <br><br>
 ## Preview
 ![Screenshot](/Screenshots/Website-Demo.png)
