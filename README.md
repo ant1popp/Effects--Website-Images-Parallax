@@ -1,4 +1,4 @@
-# Resize-Parallax / Readme
+# Resize parallax / Readme
 - [About](#about)
 - [Todo](#todo)
 - [How to use](#how-to-use)
