@@ -3,7 +3,7 @@ Creative Commons Attribution-ShareAlike 4.0 International Public License
 - https://creativecommons.org/licenses/by-sa/4.0/
 
 <br>
-Copyright (c) Christian O. <github.com/Veryshort>
+Copyright (c) Christian Oellers <github.com/Veryshort>
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
