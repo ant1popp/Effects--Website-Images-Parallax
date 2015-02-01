@@ -1,98 +1,27 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Resize-Parallax by ChristianOellers</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Window resize parallax</title>
+        <link rel="stylesheet" href="Css/Layout.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper-parallax">
+                <div class="js-parallax">
+                    <div class="bg layer-0"><div data-depth="0" class="inner"></div></div>
+                    <div class="bg layer-1"><div data-depth="1" class="inner"></div></div>
+                    <div class="bg layer-2"><div data-depth="2" class="inner"></div></div>
+                    <div class="bg layer-3"><div data-depth="1.5" class="inner"></div></div>
+                    <div class="bg layer-4"><div data-depth="4" class="inner"></div></div>
+                    <div class="bg layer-5"><div data-depth="5" class="inner"></div></div>
+                    <div class="bg layer-6"><div data-depth="6" class="inner"></div></div>
+                </div>
+            </div>
+        </div>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Resize-Parallax</h1>
-        <p>Horizontal and window resize based parallax effect for a website footer.</p>
-
-        <p class="view"><a href="https://github.com/ChristianOellers/Resize-Parallax">View the Project on GitHub <small>ChristianOellers/Resize-Parallax</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/ChristianOellers/Resize-Parallax/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/ChristianOellers/Resize-Parallax/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/ChristianOellers/Resize-Parallax">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a id="resize-parallax--readme" class="anchor" href="#resize-parallax--readme" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resize parallax / Readme</h1>
-
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#todo">Todo</a></li>
-<li><a href="#how-to-use">How to use</a></li>
-<li><a href="#preview">Preview</a></li>
-</ul>
-
-<p><br><br></p>
-
-<h2>
-<a id="about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h2>
-
-<p>A subtle window-resize based parallax effect I created for a website concept as a hidden gimmick.
-(The real version also had a few GIF-animations with birds in the trees and the sky)</p>
-
-<p>I don't think the effect can be used widely - but if you like it,
-feel free to copy the source and create something nice of it. (I would really like to any result)</p>
-
-<p><br><br></p>
-
-<h2>
-<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Todo</h2>
-
-<ul>
-<li>The first resize does not look good, it quickly jumps... maybe a problem of using CSS transitions?</li>
-</ul>
-
-<p><br><br></p>
-
-<h2>
-<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h2>
-
-<p>Download all files and open in a new browser (Firefox or Chrome).
-You need a big display to see the full animation because of the big images; preferably about 1920×1080px.</p>
-
-<p>Resize the window slowly (lets say about 50-100px per step) and wait a little bit - like 1 sec. - after each step.
-The parallax animation will slowly follow the resize direction.</p>
-
-<p>Animation will only start if you the window is smaller than 1900px but wider than 1000px.
-This is to keep the footer element always in the center (see screenshot).</p>
-
-<h4>
-<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h4>
-
-<ul>
-<li>Any modern browser with CSS transition support</li>
-<li>Last tested with: Firefox 34 and Chrome 39 under Win 7</li>
-</ul>
-
-<p><br><br></p>
-
-<h2>
-<a id="preview" class="anchor" href="#preview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preview</h2>
-
-<p><img src="/Screenshots/Website-Demo.png" alt="Screenshot"></p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/ChristianOellers">ChristianOellers</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+        <script src="Js/Lib/jQuery.js"></script>
+        <script src="Js/Parallax.js"></script>
+    </body>
 </html>
+
