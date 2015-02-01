@@ -10,7 +10,9 @@
  * - Animation is mostly variable and combined with CSS transitions.
  *
  * Footnotes
- * (1) Don't forget to update the CSS transition timeout!
+ * (*1) Don't forget to update the CSS transition timeout!
+ * (*2) Reset the timer is a good technique to prevent event overflow.
+ *      But in this case it causes ugly animation issues.
  */
 ;jQuery(document).ready(function($) {
     'use strict';
@@ -94,12 +96,13 @@
      * and update the animation.
      */
     win.on('resize', function onResize() {
+        /* (*2)
         if (timer) {
             clearTimeout(timer);
         }
+        */
 
         timer = window.setTimeout(function onTimeout() {
-
             width = win.width();
             updateLayerShift();
             updateLayerPosition();
