@@ -16,10 +16,10 @@ the source and create something nice of it. (I would really like to any result)
 
 <br><br>
 ## How to use
-Download all files and open in a new browser (Firefox or Chrome). <br>
+Download all files and open in a new browser (Firefox or Chrome).
 You need a big display to see the full animation because of the big images; preferably about 1920×1080px.
 
-Resize the window slowly (lets say about 50-100px per step) and wait a little bit - like 1 sec. - after each step. <br>
+Resize the window slowly (lets say about 50-100px per step) and wait a little bit - like 1 sec. - after each step.
 The parallax animation will slowly follow the resize direction.
 
 Animation will only start if you the window is smaller than 1900px but wider than 1000px. <br>
@@ -43,7 +43,7 @@ Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-P
 - [x] The first resize does not look good, it quickly jumps ... maybe a problem of using CSS transitions?
 - [x] In some cases the resize direction is wrong if resizing from small to big.
 
-Solution: The animation issues come from the timeout. I commented it out and added some tech details in the code. <br>
-Feel free to play with the settings yourself. Note that the fix diminishes the animations subtle character. <br>
+Solution: The animation issues come from the timeout. I commented it out and added some tech details in the code.
+Feel free to play with the settings yourself. Note that the fix diminishes the animations subtle character.
 The delay and smooth transition is the special part of it.
 
