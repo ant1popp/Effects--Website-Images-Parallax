@@ -44,5 +44,6 @@ Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-P
 - [x] In some cases the resize direction is wrong if resizing from small to big.
 
 Solution: The animation issues come from the timeout. I commented it out and added some tech details in the code. <br>
-Feel free to play with the settings yourself.
+Feel free to play with the settings yourself. Note that the fix diminishes the animations subtle character. <br>
+The delay and smooth transition is the special part of it.
 
