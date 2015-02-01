@@ -40,6 +40,9 @@ Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-P
 
 <br><br>
 ## Todo
-- The first resize does not look good, it quickly jumps ... maybe a problem of using CSS transitions?
-- In some cases the resize direction is wrong if resizing from small to big.
+- [x] The first resize does not look good, it quickly jumps ... maybe a problem of using CSS transitions?
+- [x] In some cases the resize direction is wrong if resizing from small to big.
+
+Solution: The animation issues come from the timeout. I commented it out and added some tech details in the code. <br>
+Feel free to play with the settings yourself.
 

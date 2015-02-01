@@ -8,16 +8,11 @@
  * - On-top layers show more of the effect, but you can set that manually ('data-depth').
  * - Show effect between min/max values only. Values depend on layout and image sizes.
  * - Animation is mostly variable and combined with CSS transitions.
- *
- * Footnotes
- * (*1) Don't forget to update the CSS transition timeout!
- * (*2) Reset the timer is a good technique to prevent event overflow.
- *      But in this case it causes ugly animation issues.
  */
 ;jQuery(document).ready(function($) {
     'use strict';
 
-    var updateTimeout   = 750,                  // (*1) How fast the view will update. Recommended: 500-1000 (with CSS transition) | 100-250 (without CSS transition).
+    var updateTimeout   = 750,                  // How fast the view will update. Recommended: 500-1000 (with CSS transition) | 100-250 (without CSS transition). Update the CSS transitions too!
         dampening       = 0.8,                  // Dampen total shift for fine controlling smoother animations. Values: 0-1.
         shiftMax        = 200,                  // Base amount of pixels a layer can shift (multiplied by depth and dampening).
         maxWidth        = 1900,                 // 1900px window width =   0% parallax shift
@@ -92,22 +87,38 @@
     // ------------------------------------------------------------------------------------------------------------- Run
 
     /**
-     * Listen to window size updates
-     * and update the animation.
+     * Listen to window size updates and update the animation.
+     *
+     * If performance is critical, the timeouts should be used.
+     * But in this case the animation by its nature works
+     * only for resizeable desktop browsers, so we can omit it.
+     *
+     * (*1) Prevents to run multiple timeouts at the same time is
+     *      a good performance optimization technique to prevent event overflow.
+     *      But in this case it causes ugly animation issues.
+     * (*2) This is normally a good technique too, but it causes the
+     *      animation to behave strangely on start and end - when it leaves
+     *      or re-enters the range where anything should happen.
      */
     win.on('resize', function onResize() {
-        /* (*2)
+        width = win.width();
+        updateLayerShift();
+        updateLayerPosition();
+
+        /* (*1) * /
         if (timer) {
             clearTimeout(timer);
         }
-        */
+        // */
 
+        /* (*2) * /
         timer = window.setTimeout(function onTimeout() {
             width = win.width();
             updateLayerShift();
             updateLayerPosition();
 
         }, updateTimeout);
+        // */
     });
 
 });
