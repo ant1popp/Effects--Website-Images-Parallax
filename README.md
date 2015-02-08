@@ -1,8 +1,8 @@
 # Resize parallax / Readme
 - [About](#about)
 - [How to use](#how-to-use)
-- [Preview](#preview)
-- [Todo](#todo)
+- [Examples](#examples)
+- [License »](/LICENSE.md)
 
 
 <br><br>
@@ -31,19 +31,8 @@ This is to keep the footer element always in the center (see screenshot).
 
 
 <br><br>
-## Preview
+## Examples
 Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-Parallax/)
 
 <br><br>
 ![Screenshot](/Screenshots/Website-Demo.png)
-
-
-<br><br>
-## Todo
-- [x] The first resize does not look good, it quickly jumps ... maybe a problem of using CSS transitions?
-- [x] In some cases the resize direction is wrong if resizing from small to big.
-
-Solution: The animation issues come from the timeout. I commented it out and added some tech details in the code.
-Feel free to play with the settings yourself. Note that the fix diminishes the animations subtle character.
-The delay and smooth transition is the special part of it.
-
