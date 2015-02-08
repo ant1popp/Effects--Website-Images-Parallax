@@ -26,7 +26,7 @@ Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-P
 <br><br>
 ## How to use
 Download all files and open in a new browser like `Firefox` or `Chrome`.
-You need a big display to see the full animation because of the big images; preferably about 1920×1080px.
+You need a big display to see the full animation because of the big images; preferably about `1920×1080px`.
 
 Resize the window slowly (lets say about `50-100px` per step) and wait a little bit – `like 1 sec.` – after each step.
 The parallax animation will slowly follow the resize direction.
