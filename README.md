@@ -1,7 +1,8 @@
 # Resize parallax / Readme
 - [About](#about)
-- [How to use](#how-to-use)
 - [Examples](#examples)
+- [How to use](#how-to-use)
+- [Requirements](#requirements)
 - [License »](/LICENSE.md)
 
 
@@ -10,8 +11,16 @@
 A subtle window-resize based parallax effect I created for a website concept as a hidden gimmick. <br>
 (The real version also had a few GIF-animations with birds in the trees and the sky)
 
-I don't think the effect can be used widely - but if you like it, feel free to copy <br>
-the source and create something nice of it. (I would really like to any result)
+> I don't think the effect can be used widely - but if you like it, feel free to copy <br>
+  the source and create something nice of it. (I would really like to any result)
+
+
+<br><br>
+## Examples
+Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-Parallax/)
+
+<br><br>
+![Screenshot](/Screenshots/Website-Demo.png)
 
 
 <br><br>
@@ -25,14 +34,9 @@ The parallax animation will slowly follow the resize direction.
 Animation will only start if you the window is smaller than 1900px but wider than 1000px. <br>
 This is to keep the footer element always in the center (see screenshot).
 
-#### Requirements
+
+<br><br>
+## Requirements
 - Any modern browser with CSS transition support
 - Last tested with: Firefox 34 and Chrome 39 under Win 7
 
-
-<br><br>
-## Examples
-Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-Parallax/)
-
-<br><br>
-![Screenshot](/Screenshots/Website-Demo.png)
