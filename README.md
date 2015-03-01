@@ -1,5 +1,8 @@
-# Resize parallax / Readme
+[![Live demo](/Screenshots/Website-Demo.png)](http://christianoellers.github.io/Resize-Parallax/)
 
+
+<br>
+# Resize parallax / Readme
 - [About](#about)
 - [Examples](#examples)
 - [How to use](#how-to-use)
@@ -9,7 +12,7 @@
 
 <br>
 ---
-[![Live demo](/Screenshots/Website-Demo.png)](http://christianoellers.github.io/Resize-Parallax/)
+[![GitHub release](https://img.shields.io/github/release/ChristianOellers/Resize-Parallax.svg?style=flat)](https://github.com/ChristianOellers/Resize-Parallax/releases)
 
 
 <br><br>
