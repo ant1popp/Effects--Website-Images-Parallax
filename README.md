@@ -1,9 +1,15 @@
 # Resize parallax / Readme
+
 - [About](#about)
 - [Examples](#examples)
 - [How to use](#how-to-use)
 - [Requirements](#requirements)
 - [License »](/LICENSE.md)
+
+
+<br>
+---
+[![Live demo](/Screenshots/Website-Demo.png)](http://christianoellers.github.io/Resize-Parallax/)
 
 
 <br><br>
@@ -18,9 +24,6 @@ A subtle window-resize based parallax effect I created for a website concept as 
 <br><br>
 ## Examples
 Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-Parallax/)
-
-<br><br>
-![Screenshot](/Screenshots/Website-Demo.png)
 
 
 <br><br>
