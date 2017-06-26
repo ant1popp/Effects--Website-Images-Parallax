@@ -2,6 +2,7 @@
 
 
 <br>
+
 # Resize parallax / Readme
 - [About](#about)
 - [Examples](#examples)
@@ -11,11 +12,14 @@
 
 
 <br>
+
 ---
+
 [![GitHub release](https://img.shields.io/github/release/ChristianOellers/Resize-Parallax.svg?style=flat)](https://github.com/ChristianOellers/Resize-Parallax/releases)
 
 
 <br><br>
+
 ## About
 A subtle window-resize based parallax effect I created for a website concept as a hidden gimmick. <br>
 (The real version also had a few GIF-animations with birds in the trees and the sky)
@@ -25,11 +29,13 @@ A subtle window-resize based parallax effect I created for a website concept as 
 
 
 <br><br>
+
 ## Examples
 Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-Parallax/)
 
 
 <br><br>
+
 ## How to use
 Download all files and open in a new browser like `Firefox` or `Chrome`.
 You need a big display to see the full animation because of the big images; preferably about `1920×1080px`.
@@ -42,6 +48,7 @@ This is to keep the footer element always in the center (see screenshot).
 
 
 <br><br>
+
 ## Requirements
 - Any browser that supports CSS transitions
 - Tested with: Firefox `34.x` and `Chrome 39.x` under Windows 7
