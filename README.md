@@ -1,13 +1,8 @@
-[![Live demo](/Screenshots/Website-Demo.png)](http://christianoellers.github.io/Resize-Parallax/)
+# Resize parallax
 
-
-<br>
-
-# Resize parallax / Readme
 - [About](#about)
 - [Examples](#examples)
 - [How to use](#how-to-use)
-- [Requirements](#requirements)
 - [License »](/LICENSE.md)
 
 
@@ -15,41 +10,33 @@
 
 ---
 
-[![GitHub release](https://img.shields.io/github/release/ChristianOellers/Resize-Parallax.svg?style=flat)](https://github.com/ChristianOellers/Resize-Parallax/releases)
+[![GitHub release](https://img.shields.io/github/release/ChristianOellers/Effects--Website-Images-Parallax)](https://github.com/ChristianOellers/Effects--Website-Images-Parallax/releases)
+
+
+[![Live demo](/Screenshots/Example.png)](https://christianoellers.github.io/Effects--Website-Images-Parallax/)
 
 
 <br><br>
 
 ## About
-A subtle window-resize based parallax effect I created for a website concept as a hidden gimmick. <br>
-(The real version also had a few GIF-animations with birds in the trees and the sky)
 
-> I don't think the effect can be used widely – but if you like it, feel free to copy <br>
-  the source and create something nice of it. (I would really like to any result)
+A subtle window-resize based parallax effect created for a real website as secret feature. I don't think the effect can be used widely – but if you like it, feel free to copy the source and create something nice of it. Just for inspiration: The original website also featured some animated birds in GIF images within the Parallax.
 
 
 <br><br>
 
 ## Examples
-Try it out here: [Resize-Parallax »](http://christianoellers.github.io/Resize-Parallax/)
+
+- [Live demo »](https://christianoellers.github.io/Effects--Website-Images-Parallax/)
 
 
 <br><br>
 
 ## How to use
-Download all files and open in a new browser like `Firefox` or `Chrome`.
-You need a big display to see the full animation because of the big images; preferably about `1920×1080px`.
 
-Resize the window slowly (lets say about `50-100px` per step) and wait a little bit – `like 1 sec.` – after each step.
-The parallax animation will slowly follow the resize direction.
+1. Open the website in a browser that supports CSS transitions.
+2. Make sure to view it in wide viewport - like `1920×1080px` - or zoom out to see the full animation.
+3. Resize the window slowly (lets say about `50-100px` per step) and wait a little bit – `like 1 sec.` – after each step. The parallax animation will slowly follow the resize direction.
 
-Animation will only start if you the window is smaller than `1900px` but wider than `1000px`. <br>
-This is to keep the footer element always in the center (see screenshot).
-
-
-<br><br>
-
-## Requirements
-- Any browser that supports CSS transitions
-- Tested with: Firefox `34.x` and `Chrome 39.x` under Windows 7
+The animation will only start if the window is smaller than `1900px` but wider than `1000px`. This is to keep the footer element always in the center (see screenshot).
 

@@ -1,12 +1,43 @@
-# OS
+# --------------------------------------------------------------------------------------------------------------------------------- Git only
+
+# Compiled output
+/dist
+/documentation
+/out-tsc
+/tmp
+
+# Dependencies
+/node_modules
+
+# IDEs + Editors
+*.launch
+*.sublime-workspace
+.c9/
+.classpath
+.project
+.settings/
+/.idea
+
+# IDE - VSCode
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/*
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+/typings
+npm-debug.log
+testem.log
+yarn-error.log
+
+# System files
 */*.lnk
-*/desktop.ini
 *desktop.ini
-/.DS_Store
-/._.DS_Store
+.DS_Store
 Thumbs.db
-
-
-# Software
-.idea
 
