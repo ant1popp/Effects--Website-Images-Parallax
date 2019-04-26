@@ -10,7 +10,7 @@
 
 ---
 
-[![GitHub release](https://img.shields.io/github/release/ChristianOellers/Effects--Website-Images-Parallax)](https://github.com/ChristianOellers/Effects--Website-Images-Parallax/releases)
+[![GitHub release](https://img.shields.io/github/release/ChristianOellers/Effects--Website-Images-Parallax.svg)](https://github.com/ChristianOellers/Effects--Website-Images-Parallax/releases)
 
 
 [![Live demo](/Screenshots/Example.png)](https://christianoellers.github.io/Effects--Website-Images-Parallax/)
